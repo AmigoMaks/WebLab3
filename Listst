@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Інформація списком - Меблі Комфорт</title>
+    <style>
+        .content-block { padding: 20px; max-width: 800px; margin: 0 auto; }
+        dt { font-weight: bold; color: #4d73b6; margin-top: 10px; }
+        dd { margin-left: 20px; font-style: italic; }
+    </style>
+</head>
+<body id="lists-page">
+
+    <header class="header" style="text-align: center; padding: 10px;">
+        <a href="menu.html" style="color: red">Повернутися до МЕНЮ</a>
+    </header>
+
+    <div class="content-block">
+        <h1 class="main-title">Наші пропозиції та умови</h1>
+
+        <h3>Категорії меблів (Маркований список)</h3>
+        <ul class="furniture-list" type="circle" compact title="Список доступних категорій">
+            <li>М'які меблі (Дивани, крісла)</li>
+            <li>Корпусні меблі (Шафи, комоди)</li>
+            <li>Кухонні куточки</li>
+            <li>Офісні меблі</li>
+        </ul>
+
+        <hr>
+
+        <h3>Етапи оформлення замовлення (Нумерований список)</h3>
+        <ol dir="ltr" style="background-color: #f9f9f9; padding: 20px 40px;" start="1" compact>
+            
+            <li type="A" style="color: darkblue;" id="step1">
+                Оберіть товар на сайті або в каталозі.
+            </li>
+            
+            <li type="A" style="color: darkblue;" id="step2">
+                Зв'яжіться з менеджером для уточнення наявності тканини.
+            </li>
+            
+            <li type="A" style="color: darkblue;" id="step3">
+                Оформіть доставку та внесіть передоплату.
+            </li>
+        </ol>
+
+        <hr>
+
+        <h3>Словник меблевих термінів (Список визначень)</h3>
+        <dl title="Термінологія" id="definitions-list" style="border-left: 4px solid orange; padding-left: 15px;">
+            
+            <dt style="font-size: 1.1em;" title="Матеріал" lang="uk">МДФ</dt>
+            <dd>Деревноволокниста плита середньої щільності, що використовується для фасадів.</dd>
+
+            <dt style="font-size: 1.1em;" title="Матеріал" lang="uk">Шпон</dt>
+            <dd>Тонкий лист деревини, який наклеюється на поверхню меблів для декору.</dd>
+            
+            <dt style="font-size: 1.1em;" title="Механізм" lang="uk">Пантограф</dt>
+            <dd>Механізм трансформації диванів, який "крокує" вперед, не дряпаючи підлогу.</dd>
+        </dl>
+
+        <hr>
+        
+        <h3>Додаткові опції</h3>
+        <p>
+            <label for="terms-check">
+                <input type="checkbox" disabled checked id="terms-check">
+                Я погоджуюсь з умовами публічної оферти (за замовчуванням)
+            </label>
+        </p>
+
+    </div>
+
+</body>
+</html> 
