@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Про компанію - Меблі Комфорт</title>
+  </head>
+  <body>
+    <header class="header" title="Навігація сайту">
+      <p>
+        <a href="index.html">Перейти до сторінки про автора</a> |
+        <a href="index2.html">Перейти до сторінки про Новини</a> |
+        <a href="menu.html" style="font-weight: bold; color: red;">МЕНЮ САЙТУ</a>
+      </p>
+    </header>
+    <h1 class="main-title text-center">
+      Про компанію
+      <abbr
+        class="company-abbr underline"
+        title="Товариство з обмеженою відповідальністю"
+        >ТОВ</abbr
+      >
+      "Меблі Комфорт"
+    </h1>
+
+    <address class="company-contact" title="Контактні дані компанії">
+      вул. Центральна, 10, м. Київ, Україна<br />
+      Телефон: +380 44 123 45 67<br />
+      Електронна пошта: info@meblikomfort.ua
+    </address>
+
+    <blockquote class="quote font-italic" title="Цитата про компанію">
+      <strong class="quote-text font-bold"
+        >"Меблі Комфорт" — ваш надійний партнер у створенні затишку!</strong
+      >
+    </blockquote>
+
+    <p>
+      Компанія
+      <em class="highlight">Меблі Комфорт</em> спеціалізується на продажі
+      якісних меблів від провідних
+      <abbr class="producers-abbr underline" title="Виробники меблів"
+        >виробників</abbr
+      >. Ми пропонуємо широкий асортимент для дому та офісу за доступними
+      цінами.
+    </p>
+
+    <h2 class="subheading text-left">Наші товари</h2>
+    <pre class="product-details font-monospace">
+        Назва: Диван "Елегант"
+        Тип: <kbd class="furniture-type" title="Тип меблів">Кутовий диван</kbd>
+        Виробник: Comfort Design, Україна
+        Постачальник: ТОВ "Меблевий Світ"
+        Матеріал: Тканина
+        Ціна: 15,000 грн
+    </pre>
+
+    <pre class="product-details font-monospace">
+        Назва: Стіл "Модерн"
+        Тип: <kbd class="furniture-type" title="Тип меблів">Обідній стіл</kbd>
+        Виробник: WoodCraft, Польща
+        Постачальник: ПП "ЄвроМеблі"
+        Матеріал: Дерево
+        Ціна: 8,500 грн
+    </pre>
+
+    <h2 class="subheading text-left">Приклад товару</h2>
+    <img
+      src="img/surfinio1200h500-1200x500.jpg"
+      alt="Диван Елегант"
+      class="product-img"
+      border="2"
+      ismap
+      title="Зображення дивана Елегант"
+    />
+
+    <p>
+      <strong class="contact-text font-bold">Звертайтесь до нас</strong> за
+      допомогою на
+      <kbd class="contact-key" title="Контактна інформація"
+        >info@meblikomfort.ua</kbd
+      >
+      або відвідайте наш сайт для замовлення
+      <em class="highlight">меблів вашої мрії</em>!
+    </p>
+  </body>
+</html>
