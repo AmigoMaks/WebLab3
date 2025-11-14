@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Про автора</title>
+  </head>
+  <body>
+    <header class="header" title="Навігація сайту">
+      <p>
+        <a href="index1.html">Перейти до сторінки про компанію</a> |
+        <a href="index2.html">Перейти до сторінки про Новини</a> |
+        <a href="menu.html" style="font-weight: bold; color: red;">МЕНЮ САЙТУ</a>
+      </p>
+    </header>
+    <h3 class="author-title text-center" title="Інформація про автора">
+      Про мене
+    </h3>
+    <p class="author-desc text-justify" title="Опис автора">
+      Мене звати <u class="highlight">Прокопчук Максим</u>, я студент факультету
+      комп'ютерних наук. Захоплююсь програмуванням, математикою, англійською, музикою та іграми.
+    </p>
+    <hr class="divider" title="Розділювач секцій" />
+    <h4 class="skills-title text-left font-bold" title="Мої навички">
+      Мої навички
+    </h4>
+    <p class="skills text-left" title="Список навичок">
+      Я володію С, С++, Python та іншими технологіями в
+      програмувані.
+      <br class="break-style" title="Перехід до нового рядка" />
+      Постійно вдосконалюю свої знання, вивчаючи нові технології.
+    </p>
+    <h5 class="motivation-title text-center font-italic" title="Моя мотивація">
+      Моя мотивація
+    </h5>
+    <p class="motivation text-center" title="Мотивація автора">
+      <small class="motivation-quote highlight font-small"
+        >"Кожен проект — це можливість навчитися чомусь новому."</small
+      >
+      <br class="break-style" title="Додатковий відступ" />
+      <i class="motivation-text highlight"
+        >Я прагну створювати проекти, які приносять користь людям!!!</i
+      >
+    </p>
+  </body>
+</html>
