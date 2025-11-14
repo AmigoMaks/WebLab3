@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta id="meta-desc" name="description" content="Меню навігації проекту">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link charset="UTF-8" title="Main Style" rel="stylesheet" href="style1.css">
+    
+    <title>Меню - Меблі Комфорт</title>
+    
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .menu-container { max-width: 600px; margin: 20px auto; text-align: center; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        .menu-link { 
+            display: block; 
+            margin: 10px 0; 
+            padding: 15px; 
+            background: #f4f4f4; 
+            text-decoration: none; 
+            border: 1px solid #ddd; 
+            color: #333;
+            font-weight: bold;
+        }
+        .menu-link:hover { background: #e0e0e0; }
+        .anchor-link { background: #e9f5ff; }
+        .header { text-align: center; padding: 10px; }
+        #footer-info { text-align: center; margin-top: 20px; padding: 10px; }
+    </style>
+</head>
+<body id="menu-body">
+
+    <marquee width="100%" bgcolor="#ffe4b5" truespeed style="font-weight:bold; color: #333;" height="30">
+        Ласкаво просимо на сайт "Меблі Комфорт"! Найкращі пропозиції тільки для вас.
+    </marquee>
+
+    <header class="header">
+        <h1>Навігаційне меню</h1>
+    </header>
+
+    <div id="nav-block" class="menu-container">
+        
+        <a href="index.html" 
+           title="Перейти на сторінку про автора" 
+           dir="ltr" 
+           rel="author" 
+           id="link-author" 
+           class="menu-link">
+           Про автора
+        </a>
+
+        <a href="index1.html" 
+           title="Повернутися на сторінку про компанію" 
+           dir="ltr" 
+           rel="home" 
+           id="link-company" 
+           class="menu-link">
+           Про компанію
+        </a>
+
+        <a href="index2.html" 
+           title="Переглянути останні новини" 
+           dir="ltr" 
+           rel="alternate" 
+           id="link-news" 
+           class="menu-link">
+           Новини
+        </a>
+
+        <a href="lists.html" 
+           title="Переглянути перелік послуг" 
+           dir="ltr" 
+           rel="next" 
+           id="link-lists" 
+           class="menu-link">
+           Інформація (Списки)
+        </a>
+
+        <a href="#footer-info" 
+           title="Перейти до підвалу" 
+           dir="ltr" 
+           rel="self" 
+           id="link-anchor" 
+           class="menu-link anchor-link">
+           Контактна інформація (Вниз сторінки)
+        </a>
+
+    </div>
+
+    <div style="height: 400px;"></div> <footer id="footer-info">
+        <hr>
+        <span id="footer-text">© 2025 Меблі Комфорт. Всі права захищені.</span>
+        <p><a href="#">Вгору</a></p>
+    </footer>
+
+</body>
+</html>
