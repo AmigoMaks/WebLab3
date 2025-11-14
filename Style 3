@@ -1,0 +1,194 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9fafb;
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #1a3c34;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header p a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.header p a:hover {
+  color: #a3e635;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-small {
+  font-size: 12px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.main-title {
+  font-size: 30px;
+  color: #1a3c34;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.company-name,
+.footer-name {
+  color: #d32f2f;
+}
+
+.news-container {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-container[style] {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.subheading {
+  font-size: 24px;
+  color: #1a3c34;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #a3e635;
+  padding-bottom: 5px;
+}
+
+.news-date {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.new-collection,
+.discount,
+.exhibition {
+  background-color: #fefcbf;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #b91c1c;
+}
+
+.highlight,
+.price-sub {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.news-image {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #1a3c34;
+  border-radius: 8px;
+  margin: 15px 0;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-area {
+  cursor: pointer;
+}
+
+.image-area:hover {
+  outline: 2px solid #a3e635;
+  outline-offset: -2px;
+}
+
+.promo-aside {
+  background-color: #e8f0fe;
+  padding: 15px;
+  border-left: 4px solid #1a73e8;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.promo-title {
+  font-size: 20px;
+  color: #1a3c34;
+  margin-bottom: 10px;
+}
+
+.collection-details {
+  color: #2d3748;
+}
+
+.footer {
+  background-color: #1a3c34;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.footer-name {
+  color: #a3e635;
+}
+
+.break-point {
+  display: block;
+  margin: 10px 0;
+}
+
+.bdo-text {
+  color: #2d3748;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .main-title {
+    font-size: 24px;
+  }
+
+  .subheading {
+    font-size: 20px;
+  }
+
+  .news-container {
+    padding: 15px;
+  }
+
+  .header p a {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+
+  .promo-aside {
+    padding: 10px;
+  }
+
+  .news-image {
+    margin: 10px auto;
+  }
+}
